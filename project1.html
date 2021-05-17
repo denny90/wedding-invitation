@@ -1,0 +1,172 @@
+
+<html>
+<!-- latihan membuat html 11/05/2021 -->
+  <head>
+    <title> CHAPTER ONE </title>
+    <meta charset="UTF-8">
+    <style>
+    h1{
+        COLOR: black;
+      }
+
+    #pengumuman{
+      font-size: 30;
+    }
+
+    body{
+      background-image: url("backwedd.jpg");
+    }
+
+    .klik:hover{
+      color: white;
+      background: red;
+    }
+
+    #tempat:hover{
+      color: white;
+      background: black;
+    }
+
+    .klik{
+      border-width: 2px;
+      border-style: ridge;
+      border-color: black;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+    }
+
+
+
+    #menus{
+      margin-bottom: 50px;
+      margin-top: 30px;
+    }
+
+    #meja{
+      background-color: white;
+      height: 160px;
+      margin-left: 400px;
+      margin-right: 400px;
+      margin-bottom: 50px;
+      margin-top: 10px;
+      display:inline-block;
+      border-width: 3px;
+      border-style: solid;
+      border-color: black;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+    #check{
+      border-width: 2px;
+      border-style: ridge;
+      border-color: grey;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: red;
+      color: white;
+      margin-left: 600px;
+      margin-right: 600px;
+    }
+
+    #check:hover{
+      color: white;
+      background: black;
+    }
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <center>
+
+    <!-- menu website -->
+    <div id="menus">
+      <a href="project1.html" class="klik"> UNDANGAN </a>
+      	&nbsp;	&nbsp;	&nbsp;<a href="project2.html" class="klik"> LOKASI </a>
+    </div>
+
+    <h1> WEDDING INVITATION </h1>
+    <div id="daftar">
+      <p>  <b>CHECK DAFTAR NAMA UNDANGAN DENGAN MENGISI FORM DI BAWAH INI</b> </p>
+
+    <form>
+
+      <label><b>Ketik Nama Anda:</b></label>
+      <input type="text" placeholder="type your name" required>
+      <br><br><label><b>Gender:</b></label>
+      <select>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <br><br><label><b>JENIS UNDANGAN:</b></label>
+      <br><label> (pilih salah satu dibawah pilihan ini) </label>
+      <br><br><input type="radio" name="invite" value="0"> UNDANGAN VIA ONLINE
+      <input type="radio" name="invite" value="1" checked> UNDANGAN VIA SURAT
+      <br><br><input type="submit" value="search">
+    </form>
+  </div>
+
+  <img src="wedding.png" alt="logo wedding day" height="300" width="300">
+
+  <div id="pengumuman">
+      <ul>
+      <li><b>24 MEI 2021</b></li>
+      <li><a href="https://alhikam.ac.id/" id="tempat"><b> di MASJID AL-HIKAM </b><a/></li>
+    </ul>
+  </div>
+
+        <br> <b>SILAHKAN KLIK DI BAWAH UNTUK MELIHAT DAFTAR JADWAL YANG SUDAH DITENTUKAN</b><br>
+
+  <br><details>
+      <summary id="check">
+        <b>KLIK DI SINI</b>
+      </summary>
+
+    <div id="meja">
+      <table border="2">
+      <caption> DAFTAR WAKTU UNDANGAN </caption>
+
+        <br><tr>
+          <th> LINGKUP TEMAN </th>
+          <th> WAKTU UNDANGAN </th>
+        </tr>
+
+        <tr>
+          <td> TEMAN SMA </td>
+          <td> 12.00-02.00</td>
+        </tr>
+
+        <tr>
+          <td> TEMAN KULIAH </td>
+          <td> 03.00-05.00 </td>
+        </tr>
+
+        <tr>
+          <td> TEMAN KERJA </td>
+          <td> 06.00-09.00 </td>
+        </tr>
+
+    </table>
+  </div>
+</details>
+
+    <br><br>
+
+    <iframe width="1270" height="600" src="https://www.youtube.com/embed/kebq86BTZFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br><br> &copy; Belajar HTML
+
+  </center>
+  </body>
+
+</html>
